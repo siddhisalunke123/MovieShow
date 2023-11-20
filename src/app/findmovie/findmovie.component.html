@@ -1,0 +1,13 @@
+<h3>Details of Movie &nbsp;{{moviedata.name}}</h3>
+<div class="sid" style="background-color: lawngreen;" >
+    Id : {{moviedata.id}}<br>
+    Year : {{moviedata.yearRelease}}<br>
+    Rating : {{moviedata.rating}}
+
+</div>
+<br>
+<br>
+<a [routerLink]="['/listmovies']">Back to list</a>
+<br>
+<br>
+<input type="button" value="Show Movies" class="btn btn-success" (click)="Show()">

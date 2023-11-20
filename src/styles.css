@@ -1,0 +1,31 @@
+body{
+    margin:40px;
+    background-color: aqua;
+    height: 500px;
+}
+table{
+    width: 100%;
+    align-items: center;
+}
+tr:nth-child(even){
+    background-color: rgb(242, 237, 174);
+}
+tr:nth-child(odd){
+    background-color: antiquewhite;
+}
+tr:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+h1{
+    text-align: center;
+    background-color: deeppink;
+    color: silver;
+    font-family: cursive;
+}
+h2{
+    text-align: center;
+    background-color: deeppink;
+    color: silver;
+    font-family: cursive;
+}
